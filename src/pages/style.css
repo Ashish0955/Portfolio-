@@ -114,8 +114,8 @@
     background-image: linear-gradient(
       43deg,
       #000 0%,
-      #ffd89b 0%,
-      #19547B 100%
+      #000 0%,
+      #2c3e50 45%
     );
   }
   .nav-link {
@@ -231,7 +231,7 @@
   .homepagebackground {
     width: 100%;
     height: 100%;
-  }
+}
   .row {
     padding-top: 50px;
   }
@@ -276,9 +276,6 @@
   height: 100%;
   background-color: #000000;
   background-image: linear-gradient(90deg, #bdc3c7 0%, #2c3e50 100%);
-
-    
-    
      padding-top: 150px;
      padding-bottom: 30px;
 
@@ -299,6 +296,7 @@
   color: #191919 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
+  line-break: loose;
 }
 .aboutmetext span:hover {
   display: inline-block;
@@ -342,10 +340,20 @@
     width: 100%;
     height: 100%;
   }
-  .textbackground {
-    display: block;
+  .textbackground h1{
+    justify-content: center;
+    align-items: center;
+    display:flex;
     margin: 0 auto;
   }
+  .textbackground {
+    display:flex;
+    margin: 0 auto;
+  }
+  .textbackground {
+    padding-top: 50px;
+  } 
+
 }
 
 /* Projectpage style */
@@ -413,7 +421,7 @@
 
 .btn-primary:hover {
   color: #191919 !important;
-  background-color: #19547b !important;
+  background-color: #0c2638 !important;
   border-color: #010646 !important;
 }
 .btn:focus {
@@ -433,7 +441,7 @@
   height: 100vh;
   background-color: #000000;
   background-image: linear-gradient(90deg, #bdc3c7 0%, #2c3e50 100%);
-  padding-top: 220px;
+  padding-top: 200px;
 }
 .contacthead {
   padding-top: 3rem;
@@ -514,4 +522,10 @@
   padding: 20px !important;
   line-height: 1.6 !important;
 }
+
+.tech-icon a {
+ text-decoration: none;
+ background-color: #000000;
+}
+
 

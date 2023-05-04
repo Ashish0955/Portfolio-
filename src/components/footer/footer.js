@@ -1,6 +1,6 @@
 import React from "react";
 import "../../pages/style.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 function Footer() {
   return (
     <Container>
@@ -9,7 +9,7 @@ function Footer() {
         <p className="copyright">
           © Copyright 2023.
           <br />
-          Designed & Built by <span>ashishsharma</span>
+          Designed & Built by <span>Ashish Sharma</span>
         </p>
       </div>
     </Container>

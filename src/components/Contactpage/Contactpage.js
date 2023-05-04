@@ -18,7 +18,7 @@ function Contactpage() {
         <hr className='line' />
         <p className='copyright'>© Copyright 2023.
         <br /> 
-        Designed & Built by <span>ashishsharma</span></p>
+        Designed & Built by <span>Ashish Sharma</span></p>
       </Container>
     </div>
   )
