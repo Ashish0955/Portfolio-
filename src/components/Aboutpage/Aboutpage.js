@@ -37,7 +37,7 @@ function Aboutpage() {
               About <span>Me</span>
             </h3>
 
-            <p className="aboutdetails">
+            <p className="aboutdetails" >
             Hello! My name is <strong> Ashish Sharma </strong>, and I am a <strong> full-stack developer </strong>. <br/> 
             As a full stack developer, I thrive  on building complex systems that connect the dots between front-end   and   back-end technologies . <br/>With a passion for solving problems and a commitment to delivering high-quality code, I'm always seeking new challenges and opportunities to expand my skillset. <br/>
             If you would like to learn more about my skills and what i work on please scroll down .

@@ -5,7 +5,7 @@
 
 .navbar {
   width: 100%;
-  height: 70px;
+  height: 90px;
   background-color: transparent;
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
@@ -28,7 +28,7 @@
   background-color: #191919;
   height: 2px !important;
   width: 28px !important;
-  margin-top: 3px !important;
+  margin-top: 2px !important;
   margin-bottom: 5px !important;
   margin-right: 2rem !important;
   transform: rotate(0deg) !important;
@@ -140,6 +140,7 @@
   background-color: #000000;
   background-image: linear-gradient(90deg, #bdc3c7 0%, #2c3e50 100%);
     padding-top: -20px;
+    overflow: hidden;
   }
   .row {
     padding-top: 80px;
@@ -257,6 +258,10 @@
   .socailmediabtn {
     margin-top: 1rem;
   }
+  .homepagebackground {
+      padding-top: 150px;
+      padding-bottom: 30px;
+    }
 }
 
 /* Aboutpage style */
@@ -278,6 +283,7 @@
   background-image: linear-gradient(90deg, #bdc3c7 0%, #2c3e50 100%);
      padding-top: 150px;
      padding-bottom: 30px;
+    
 
   } 
 .textbackground {
@@ -289,6 +295,8 @@
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
   margin-bottom: 50px;
+  
+
 
 }
 .aboutmetext {
@@ -314,6 +322,7 @@
 }
 .aboutdetails {
   font-size: 1.1em !important;
+  justify-content: center;
 }
 .skilllist li {
   letter-spacing: 1px;
@@ -342,26 +351,20 @@
   }
   .textbackground h1{
     justify-content: center;
-    align-items: center;
-    display:flex;
-    margin: 0 auto;
+    align-items: center;    
   }
   .textbackground {
     display:flex;
-    margin: 0 auto;
+    margin:1rem 0; 
   }
-  .textbackground {
-    padding-top: 50px;
-  } 
-
+  .aboutdetails{
+    justify-content: center;
+  }
 }
 
 /* Projectpage style */
 
-.hhh{
-  color: orange;
-  text-align: center;
-}
+
 
 .projectbackground {
   width: 100%;
@@ -515,7 +518,7 @@
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(87, 50, 102, 0.883) !important;
 }
 .tech-icon-images {
   overflow: hidden;
@@ -525,7 +528,7 @@
 
 .tech-icon a {
  text-decoration: none;
- background-color: #000000;
+ background-color: #455200;
 }
 
 

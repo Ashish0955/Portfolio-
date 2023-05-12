@@ -44,10 +44,9 @@ function Home() {
           </Col>
         </Row>
       <Footer></Footer>
-                
       </Container>
     </div>
   )
 }
 
-export default Home
+export default Home;
